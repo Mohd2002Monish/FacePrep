@@ -16,7 +16,7 @@ function Navbar() {
         bg: "blue.500",
       }}
     >
-      <Flex justifyContent={"flex-end"} paddingEnd={"315px"}>
+      <Flex justifyContent={"flex-end"} className="logout-btn">
         <Button cursor={"pointer"} onClick={handleLogout}>
           Logout
         </Button>
